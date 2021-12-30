@@ -24,10 +24,83 @@
     <!-- ********* write html code from here ******************  -->
     
     
+    <header>
 
-    <h1>Done with initial setup.</h1>
+        <nav class="container">
+            <!-- <div class="logo"><a href="#"><img src="./images/logo.jpg" alt="logo"></a></div> -->
 
+            <img src="./images/logo.jpg" alt="logo" class="logo">
+
+            <ul class="link">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#Todo">To-do</a></li>
+                <li><a href="#Sign-up">SignUp</a></li>
+                <li><a href="#About">About Us</a></li>
+            </ul>
+        </nav>
+
+        <section class="main">
+            <h2>Manage your task!</h2>
+            <button class="btn main-btn">Learn more</button>
+        </section>
+
+    </header>
+
+    <section class="task container">
+        <h2>Your plan for today?</h2>
+
+        <form class="add-task">
+            <input type="search" name="search" id="search" placeholder="add task">
+            <input type="submit" value="Add task" id="Add-task" class="btn">
+        </form>
+    </section>
+
+    <section class="sign-up container">
+
+        <h2>Sign Up</h2>
+
+        <form class="signup-form">
+
+            <div class="box">
+                <label for="username">Username</label>
+                <input type="text" name="username" id="username" placeholder="Enter username" class="signup-input">
+            </div>
     
+            <div class="box">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" placeholder="Enter password" class="signup-input">
+            </div>
+    
+            <div class="box">
+                <label for="confirm-password">Confirm password</label>
+                <input type="password" name="confirm-password" id="confirm-password" placeholder="Enter confirm-password" class="signup-input">
+            </div>
+    
+            <div class="box">
+                <label for="phone">Phone</label>
+                <input type="tel" name="phone" id="phone" placeholder="Enter phone" class="signup-input">
+            </div>
+    
+            <div class="box">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Enter email" class="signup-input">
+            </div>
+    
+            <div class="box">
+                <label for="about">About yourself</label>
+                <textarea name="about" id="about" placeholder="About yourself" ></textarea>
+            </div>
+    
+            <div class="box">
+                <input type="submit" value="Sign up" class="btn signup-submit"> 
+            </div>
+
+        </form>
+
+
+
+        
+    </section>
 
     
     
